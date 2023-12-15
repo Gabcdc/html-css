@@ -19,6 +19,14 @@
         table{
           width: 500px; 
             border-collapse:collapse;
+            position: relative;
+        
+        }
+        thead >tr > th{
+            position: sticky;
+            top:-1px;
+            
+            background-color:darkgray ;
         }
         td,th{
              border:1px solid black;
@@ -33,8 +41,10 @@
             color: white;
         }
         .total{
-            text-align: center;
-            
+            text-align: center; 
+        }
+        tbody > tr:nth-child(2n){
+            background-color: lightgrey;
         }
         
 
