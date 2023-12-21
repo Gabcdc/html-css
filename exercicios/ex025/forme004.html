@@ -17,6 +17,8 @@
             background-color:aquamarine;
             border-radius: 5px;
             color: rgb(26, 103, 165);
+            width:500px;
+            text-align: center;
 
         }
         .botoes{
@@ -27,6 +29,7 @@
             background-color: aquamarine;
             color: rgb(0, 115, 255);
         }
+        
 
     </style>
 </head>
@@ -44,7 +47,7 @@
                 <input type="email" name="E-mail" id="iemail" required>
                 <p>
                     <label for="itel">Telefone</label>
-                    <input type="tel" name="Telefone" id="itel" autocomplete="tel" pattern="^[0-9]{4}-[0-9]{4}$" >
+                    <input type="tel" name="Telefone" id="itel" autocomplete="tel" pattern="^/(/d{2})/[0-9]{4}-[0-9]{4}$" >
                 </p>
                 
         </fieldset>
