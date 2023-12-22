@@ -1,1 +1,1 @@
-comece php.
+aprenda a programar em java escript
