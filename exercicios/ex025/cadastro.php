@@ -1,1 +1,0 @@
-aprenda a programar em java escript
