@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+</head>
+<body>
+    <h1>Exemplos de Formulários</h1>
+    <form action="java escripst.js">
+        <p>
+            <label for="iano">Em que ano você nasceu?</label>
+            <input type="number" name="ano" id="iano" required mim="1900" max="2023" oninput="calcidade()">
+        </p>
+        <p>
+            <label for="iidade">Sua idade é:</label>
+            <output id="iidade">0</output>
+        </p>
+
+
+<p>
+
+    <input type="submit" value="Enviar" oninput="clicar()">
+    <input type="reset" value="limpar">
+</p>
+
+
+    </form>
+
+    <script>
+        function calcidade(){
+            var atual = new Date().getFullYear()
+            var soma = iidade.innerHTML = Number(atual)-Number(iano.value)
+        }
+
+    </script>
+    
+</body>
+</html>
